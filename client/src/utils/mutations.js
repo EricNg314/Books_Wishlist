@@ -2,7 +2,7 @@ import { gql } from '@apollo/client';
 
 export const ADD_USER = gql`
   mutation addUser($username: String!, $email: String!, $password: String!) {
-    addUser (username: $username, email: $email, password: $password) {
+    addUser(username: $username, email: $email, password: $password) {
       token
       user {
         _id
@@ -19,6 +19,24 @@ export const LOGIN_USER = gql`
       user {
         _id
         username
+      }
+    }
+  }
+`;
+
+export const SAVE_BOOK = gql`
+  mutation saveBook($body: savedBooks!) {
+    saveBook(body: $body) {
+      email
+      username
+      _id
+      savedBooks {
+        bookId
+        authors
+        description
+        image
+        link
+        title
       }
     }
   }
