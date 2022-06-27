@@ -13,9 +13,9 @@
 </div>
 
 ## Description
-A progressive web app created with MongoDB to demonstrate indexDB and ability to work offline until connection is reestablished. Including the ability to download as a standalone app, through the options parameter within browser.
+A web app that saves books from Google API as a personal wishlist. That utilizes Apollo Server for GraphQL endpoint relationships.
 
-Deployed Here: https://ledger-progressive-web-app.herokuapp.com/
+Deployed Here: https://bookswishlist.herokuapp.com/
 
 <div style="display:flex; flex-direction: row;">
  <img src="./assets/site_IMG.png" width="100%" alt="Homepage from Books Wishlist.">
@@ -64,6 +64,7 @@ Deployed Here: https://ledger-progressive-web-app.herokuapp.com/
 | [NPM - express](https://www.npmjs.com/package/express) | Module | A node package for creating a web framework in node. |
 | [NPM - jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) | Module | This was developed against draft-ietf-oauth-json-web-token-08. [JSON Web Token](https://datatracker.ietf.org/doc/html/rfc7519) (JWT) is a compact, URL-safe means of representing claims to be transferred between two parties. |
 | [NPM - jwt-decode](https://www.npmjs.com/package/jwt-decode) | Module | A small browser library that helps decoding JWTs token which are Base64Url encoded. |
+| [NPM - @apollo/client](https://www.npmjs.com/package/@apollo/client) | Module | Apollo Client is a fully-featured caching GraphQL client with integrations for React, Angular, and more. It allows you to easily build UI components that fetch data via GraphQL. |
 | [NPM - apollo-server-express](https://www.npmjs.com/package/apollo-server-express) | Module | Apollo Server is a community-maintained open-source GraphQL server. |
 
 
